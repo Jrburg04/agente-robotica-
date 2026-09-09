@@ -8,7 +8,7 @@ from flask import Flask
 
 # --- CONFIGURACIÓN ---
 # Reemplaza esta URL por la URL de tu Webhook de Discord para el canal de Robótica
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/TU_WEBHOOK_ROBOTICA_AQUI"
+DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1546424832298717236/aV6u2kss3TsMRiMT_-udFKlf0iBosNd1JBe0sGGa04jBokrGJSrIXo3M45qlmoD8Shp3"
 
 TICKERS = ["NVDA", "ABB", "FANUY", "CGNX", "SYM"]
 POSICIONES = {ticker: False for ticker in TICKERS}
